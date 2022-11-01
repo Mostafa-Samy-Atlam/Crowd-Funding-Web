@@ -1,7 +1,7 @@
 # Crowd-Funding-Web
-- This is a project for crowd funding web page.__
-- Steps to run the project:\
-	- Download or Clone the project.\
+- This is a project for crowd funding web page.  
+- Steps to run the project:  
+	- Download or Clone the project.  
 	- Download or Clone the project (v.3 or above).\
 	- install and upgrade pip:\
 		python -m pip install --upgrade pip\
