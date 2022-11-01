@@ -12,9 +12,9 @@
 		- Create and Activate VirtualEnvironment\
 			- virtualenv .venv\
 			- for Windows:\
-				- .venv\Scripts\activate\
+				.venv\Scripts\activate\
 			- for Linux:\
-				- source .venv/bin/activate\
+				source .venv/bin/activate\
 	- Install requirments\
 		- pip install -r requirements.txt\
 	- Set These Values in "setting.by" file to test Verification using email: ( add your [gmail] but insure that the account security not activated)\
@@ -23,4 +23,8 @@
 		EMAIL_HOST_USER = 'example@gmail.com'\
 		EMAIL_HOST_PASSWORD = 'example'\
 		EMAIL_PORT = 587\
-	8- 
+	- Go to the following file:
+
+	- Load the database:
+		python manage.py makemigrations
+		python manage.py migrate
