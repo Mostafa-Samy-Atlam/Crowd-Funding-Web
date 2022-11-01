@@ -1,9 +1,9 @@
 # Crowd-Funding-Web
-This is a project for crowd funding web page.\
-Steps to run the project:\
-	1- Download or Clone the project.\
-	2- Download or Clone the project (v.3 or above).\
-	3- install and upgrade pip:\
+- This is a project for crowd funding web page.\
+- Steps to run the project:\
+	- 1- Download or Clone the project.\
+	- 2- Download or Clone the project (v.3 or above).\
+	- 3- install and upgrade pip:\
 		python -m pip install --upgrade pip\
 	4- Open the project in pycharm.\
 	5- In the terminal window of the IDE:\
