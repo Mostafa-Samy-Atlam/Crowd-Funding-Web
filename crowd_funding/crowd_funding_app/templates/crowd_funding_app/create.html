@@ -1,0 +1,28 @@
+{% extends "crowd_funding_app/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+<form class="create_s" method="post" enctype="multipart/form-data">
+  {% csrf_token %}
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-8">
+        {{ form.title|as_crispy_field }}
+        {{ form.details|as_crispy_field }}
+        {{ form.target|as_crispy_field }}
+        {{ form.start_date|as_crispy_field }}
+        {{ form.end_date|as_crispy_field }}
+        {{ form.category|as_crispy_field }}
+        <div class="form-group">
+          <label>Tags</label>
+          <input type="text" data-role="tagsinput" class="form-control" name="tags">
+        </div>
+      </div>
+      <div class="col-8">
+        {{ formset|crispy }}
+      </div>
+    </div>
+  </div>
+  <br>
+  <button type="submit" class="boy btn btn-success ">Create Project</button>
+</form>
+{% endblock content %}
