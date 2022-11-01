@@ -1,5 +1,5 @@
 # Crowd-Funding-Web
-This is a project for crowd funding web page.
+This is a project for crowd funding web page.a\
 Steps to run the project:
 	1- Download or Clone the project.
 	2- Download or Clone the project (v.3 or above).
