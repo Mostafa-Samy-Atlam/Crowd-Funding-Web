@@ -10,7 +10,7 @@
 		- install VirtualEnvironment.\
 			pip install virtualenv\
 		- Create and Activate VirtualEnvironment\
-			- virtualenv .venv\
+			virtualenv .venv\
 			- for Windows:\
 				.venv\Scripts\activate\
 			- for Linux:\
@@ -23,8 +23,7 @@
 		EMAIL_HOST_USER = 'example@gmail.com'\
 		EMAIL_HOST_PASSWORD = 'example'\
 		EMAIL_PORT = 587\
-	- Go to the following file:
-
-	- Load the database:
-		python manage.py makemigrations
-		python manage.py migrate
+	- Go to the following file: crowd_funding\
+	- Load the database:\
+		python manage.py makemigrations\
+		python manage.py migrate\
